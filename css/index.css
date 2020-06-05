@@ -144,3 +144,160 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* my work home page */
+
+.div1 {
+/* border: teal 2px solid; */
+display: flex;
+justify-content: center;
+
+}
+
+.header-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    margin: .5rem .5rem 2.5rem;
+    /* border: green 2px solid; */
+    width: 55vw;
+      
+}
+
+.header-class img {
+    /* border: red 2px solid; */
+    width: 15%;
+    height: auto;
+}
+
+.header-class nav {
+    /* border: blue 2px solid; */
+    width: 45vw;
+    display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.header-class nav a {
+    text-decoration: none;
+      color: black;
+}
+
+.header-img {
+    /* border: chartreuse 2px solid; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background: cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+/* about page */
+#about-p {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dashed black;
+}
+
+.imgs {
+    display: flex;
+    /* border: firebrick 2px solid; */
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    /* border: blue 2px solid; */
+    width: 26vw;
+    height: auto;
+    border-bottom: 1px dashed black;
+}
+
+.boxs h2 {
+    margin-top: 1rem;
+}
+
+
+.learn-more {
+    border: solid black 2px;
+    width: 6.5vw;
+    height: 1.5rem;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: .7rem;
+    margin: .7rem 0;
+}
+
+.bottom-text {
+    margin-bottom: 1rem;
+}
+/* stretch */
+#products-img {
+    width: 800px;
+    height: 153px;
+}
+.coding-img {
+width: 370px;
+height: 236px;
+}
+
+.ios {
+    display: flex;
+    /* border: firebrick 2px solid; */
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+
+#nav-animation a:hover {
+    border: 2px black solid;
+    padding: .7rem;
+    border-radius: 10px;
+    animation-name: colors;
+    animation-duration: 4s;
+}
+
+
+  
+  @keyframes colors {
+    0%   {border: red solid 2px;}
+    25%  {border: yellow solid 2px;}
+    50%  {border: blue solid 2px;}
+    100% {border: green solid 2px;}
+  } 
